@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProductCard = ({ img, title, price, children }) => {
+const ProductCard = ({ img, title, price, children }) => { /* Props normales */
     return (
 
         <div>
@@ -10,7 +10,7 @@ const ProductCard = ({ img, title, price, children }) => {
 
 
             <div>
-                {children}
+                {children} {/* prop children */}
             </div>
         </div>
     )

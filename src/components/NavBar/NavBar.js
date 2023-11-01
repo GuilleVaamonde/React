@@ -2,6 +2,7 @@ import React from 'react'
 import CartWidget from '../CartWidget/CartWidget';
 import DboBco from '../NavBar/DboBco.png' /* Imagen importada, luego la llamamos en el <a> */
 import './NavBar.css'
+import { Link, NavLink } from 'react-router-dom';
 function NavBar() {
     return (
         <div className='navBar'>
@@ -13,9 +14,9 @@ function NavBar() {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href='/inicio'>Inicio</a>
-                            <a class="nav-link" href="/productos">Productos</a>
-                            <a class="nav-link" href="/contacto">Contacto</a>
+                            <Link class="nav-link active" aria-current="page" to='/inicio'>Inicio</Link>
+                            <Link class="nav-link" to="category/Frases">Frases</Link>
+                            <Link class="nav-link" to="category/Diseños">Diseños</Link>
                             <a class="nav-link" className="btnCarro" href='/carrito'><CartWidget /><p className='numero'>5</p></a>
                         </div>
                     </div>

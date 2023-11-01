@@ -1,0 +1,10 @@
+[
+    {"id":1, "nombre":"Remera", "descripcion":"Remera con Frase", "imagen":"../Assets/1.jpg", "precio":690, "stock":10, "categoria":"Frases"},
+    {"id":2, "nombre":"Remera", "descripcion":"Remera con Frase", "imagen":"../Assets/2.jpg", "precio":690, "stock":10, "categoria":"Frases"},
+    {"id":3, "nombre":"Remera", "descripcion":"Remera con Frase", "imagen":"../Assets/3.png", "precio":690, "stock":10, "categoria":"Frases"},
+    {"id":4, "nombre":"Remera", "descripcion":"Remera con Frase", "imagen":"../Assets/4.jpg", "precio":690, "stock":10, "categoria":"Frases"},
+    {"id":5, "nombre":"Remera", "descripcion":"Remera con Frase", "imagen":"../Assets/5.jpg", "precio":690, "stock":10, "categoria":"Frases"},
+    {"id":6, "nombre":"Remera", "descripcion":"Remera con Diseño", "imagen":"../Assets/6.jpg", "precio":690, "stock":10, "categoria":"Diseños"},
+    {"id":7, "nombre":"Remera", "descripcion":"Remera con Diseño", "imagen":"../Assets/7.jpg", "precio":690, "stock":10, "categoria":"Diseños"},
+    {"id":8, "nombre":"Remera", "descripcion":"Remera con Diseño", "imagen":"../Assets/8.jpg", "precio":690, "stock":10, "categoria":"Diseños"}
+]
